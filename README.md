@@ -4,6 +4,8 @@
 
 本仓库提供 PixEz 在 Linux 桌面端所需的原生能力——窗口管理、文件保存、剪贴板、单实例、GIF 编码等。覆盖 `linux/` 目录，**不修改主线 Dart 业务代码**。
 
+> 初版基于 [xiuusi/pixez-linux-build](https://github.com/xiuusi/pixez-linux-build) 的 linux 目录结构，但上游似乎并不怎么看 PR，因此转为独立维护。
+
 ## 插件清单
 
 | 插件 | 通道 | 功能 |
@@ -73,4 +75,4 @@ flutter build linux --release
 
 - [PixEz-Flutter 主仓库](https://github.com/Notsfsssf/pixez-flutter)
 - [PixEz 官方 Releases](https://github.com/Notsfsssf/pixez-flutter/releases)
-- [Arch Linux 打包 (pixez-flutter-bin)](https://github.com/Here-is-Daiyu/pixez) — 本构建的预编译包
+- [xiuusi/pixez-linux-build](https://github.com/xiuusi/pixez-linux-build) — 本仓库初版所参考的构建方案
